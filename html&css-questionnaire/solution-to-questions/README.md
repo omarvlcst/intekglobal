@@ -1,1 +1,1 @@
-This directory contains the solutions provided to the HTML & CSS questionnaire
+This directory contains solely the solutions to questions provided in the HTML & CSS questionnaire
