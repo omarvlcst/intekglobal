@@ -2,7 +2,9 @@ Hi,
 
 This folder contains the solutions to the exercises given in the last part of the HTML-CSS questionnaire.
 
-The exercises are:
+<span> <h4> Click in each folder to check the solution for each exercise, as each folder indicates the number of exercise with its solution contained into it </h4> </span>
+
+<h3> The exercises are: </h3>
 
 72. Create a star-rating system with hover using only HTML/CSS. No javascript.
 - Use elements that are semantic compliant when possible.
