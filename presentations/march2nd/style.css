@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+}
+
+header{
+  text-align:center;
+}
+
+.app-title {
+  padding: 30px;
+  color: navy;
+  font-family: Arial;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  height: 80px;
+}
+
+.form-control {
+  border-radius: 0.5em 0 0 0.5em;
+  width: 50%;
+  padding: 0 16px;
+}
+
+.form-control::placeholder {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.input-group-addon {
+  border-radius: 0.5em;
+  width: 25%;
+}
+
+.starter {
+  border-radius: 0 0.5em 0.5em 0;
+  width: 15%;
+}
+
+.result-a {
+  margin: 0 0 0 10px;
+  border-radius: 0.5em 0 0 0.5em;
+}
+
+.result-b {
+  border-radius: 0 0.5em 0.5em 0;
+}

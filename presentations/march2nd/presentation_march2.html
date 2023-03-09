@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="app-title">Temperature Converter <span id="temp"></span></h1>
+    </header>
+      
+      <div class="input-group input-group-lg">
+        <label class="sr-only" for="fahrInput">Enter Fahrenheit degrees</label>
+        <input id="fahrInput" type="number" class="form-control" placeholder="Enter number">
+        <div class="input-group-addon starter">°F</div>
+        <div class="input-group-addon result-a"><span id="fahrToCel"></span> °C</div>
+        <div class="input-group-addon result-b"><span id="fahrToKel"></span> °K</div>
+      </div>
+      
+      <div class="input-group input-group-lg">
+        <label class="sr-only" for="celInput">Enter Celsius degrees</label>
+        <input id="celInput" type="number" class="form-control" placeholder="Enter number">
+        <div class="input-group-addon starter">°C</div>
+        <div class="input-group-addon result-a"><span id="celToFahr"></span> °F</div>
+        <div class="input-group-addon result-b"><span id="celToKel"></span> °K</div>
+      </div>
+          
+      <div class="input-group input-group-lg">
+        <label class="sr-only" for="kelInput">Enter Kelvin degrees</label>
+        <input id="kelInput" type="number" class="form-control" placeholder="Enter number">
+        <div class="input-group-addon starter">°K</div>
+        <div class="input-group-addon result-a"><span id="kelToFahr"></span> °F</div>
+        <div class="input-group-addon result-b"><span id="kelToCel"></span> °C</div>
+      </div>
+
+      <script type="text/javascript" src="presentation.js"></script>
+</body>
+</html>
