@@ -1,0 +1,33 @@
+body { 
+    margin: 0; 
+}
+
+@keyframes slider {
+    0% {left:0%;}
+    16.66% {left:0%;}
+    33.33% {left:-100%;}
+    50% {left:-100%;}
+    66.66% {left:-200%;}
+    83.33% {left:-200%;}
+    100% {left:0%;}
+}
+
+#carousel { 
+  overflow: hidden; 
+  width: 500px;
+  height: 300px;
+}
+
+#carousel ul { 
+  position: relative;
+  width: 500%;
+  list-style: none;
+  padding: 0; 
+  margin: 0; 
+  animation: 12s slider infinite; 
+}
+
+#carousel ul li img { 
+  width: 20%; 
+  float: left;
+}
