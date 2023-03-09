@@ -1,0 +1,54 @@
+.site{
+    display: grid;
+    grid-template-areas:
+        "header"
+        "album"
+}
+
+.site-header{
+    grid-area: "header";
+    text-align: center;
+}
+
+.text-header{
+    font-family: Georgia;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.album-grid{
+    grid-area:"album";
+    display: grid;
+    grid-template-areas:
+        "photo photo photo photo"
+        "photo photo photo photo"
+        "photo photo photo photo"
+        "photo photo photo photo";
+    border: 0.7rem solid black;
+}
+
+.album-photo{
+    grid-area:"photo";
+    align-items:center;
+    margin:0;
+    padding:0;
+    border-left: 0.7rem solid black;
+    border-bottom: 0.7rem solid black;
+}
+
+.album-photo .pic{
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: 500px) {
+    .album-grid {
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+        "photo photo photo photo"
+        "photo photo photo photo"
+        "photo photo photo photo"
+        "photo photo photo photo";
+    grid-auto-rows: 100%;
+    }
+}
