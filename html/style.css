@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+.text-header{
+    font-family: Georgia;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    border: 1rem solid #999;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.tab-link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: Cambria;
+    color:black;
+}
+
+.tab-link:hover{
+    text-decoration: underline;
+}
+
+.site-header{
+    grid-area: header;
+}
+
+.artcl-title{
+    color:#942;
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: oblique;
+    text-align: center;
+}
+
+.navigation{
+    grid-area: nav;
+}
+
+.articles{
+    grid-area:artcl;
+    margin:1rem;
+    border:0.25rem solid black;
+    display: grid;
+    grid-template-areas: 
+    "art-1 art-2 art-2"
+    "art-3 art-4 art-4"
+    "art-5 art-6 art-7";
+}
+
+.art-1{
+    grid-area: art-1;
+    padding:2rem;
+    border-bottom: 0.25rem solid black;
+}
+
+.art-2{
+    grid-area: art-2;
+    padding:2rem;
+    border-left:0.25rem solid black;
+    border-bottom: 0.25rem solid black;
+}
+
+.art-3{
+    grid-area: art-3;
+    padding:2rem;
+    border-bottom: 0.25rem solid black;
+}
+
+.art-4{
+    grid-area: art-4;
+    padding:2rem;
+    border-left:0.25rem solid black;
+    border-bottom: 0.25rem solid black;
+}
+
+.art-5{
+    grid-area: art-5;
+    padding:2rem;
+}
+
+.art-6{
+    grid-area: art-6;
+    padding:2rem;
+    border-left:0.25rem solid black;
+}
+
+.art-7{
+    grid-area: art-7;
+    padding:2rem;
+    border-left:0.25rem solid black;
+}
+
+.site{
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "nav nav nav"
+        "artcl artcl artcl"
+}
