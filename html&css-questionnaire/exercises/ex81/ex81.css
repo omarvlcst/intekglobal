@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid black;
+}  
+  
+.wrapper{
+    display:flex;
+    text-align: center;
+    width: 50%;
+    padding: 2px;
+}
+
+.d2{
+    border-left: 1px solid black;
+}
