@@ -1,0 +1,33 @@
+div {
+    display: flex;
+    width:100px;
+    height:100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem; 
+    font-weight: bold;
+    background-color: indigo;
+    border:1px solid black;
+    position: relative;
+    animation: myAnimation 4s linear 2s infinite alternate;
+    animation-duration: 4s; 
+    animation-delay: 2s; 
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+}
+
+.div-1{animation-timing-function: linear;}
+.div-2{animation-timing-function: ease;}
+.div-3{animation-timing-function: ease-in;}
+.div-4{animation-timing-function: ease-out;}
+.div-5{animation-timing-function: ease-in-out;}
+
+@keyframes myAnimation {
+    0% { background-color: midnightblue; left :0; top:0;}
+    25% {background-color: crimson; left:200px; top:0;}
+    50% { background-color: magenta; left: 200px; top:200px;}
+    75% {background-color: lightpink;  left: 0; top: 200px;}
+    100% { background-color: goldenrod; left:0; top:0;}
+} 
