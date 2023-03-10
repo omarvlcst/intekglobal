@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 Boxes Layout</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        .margin-container {
+            background-color: blue;
+            padding: 25px;
+        }
+        .box-model {
+           border: 3px red solid;
+           padding: 5px;
+           background-color: white;
+           color: black;
+        }
+        .interior-span { 
+            display: inline-block;
+            border: 2px green dashed;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="margin-container">
+        <div class="box-model">
+            <span class="interior-span">Interior content</span>
+        </div>
+    </div>
+</body>
+</html>

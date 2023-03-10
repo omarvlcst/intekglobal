@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade6
+    </title>
+    <style>
+        #site-brand {
+          color: red;
+        }
+      
+        h1.nav-head.nav-main.other-useful-class {
+          /*
+           * this class is way too specific; never have a class selector so long
+           * it's ridiculous and just to illustrate a point
+           */
+          color: blue;
+        }
+</style>
+    </style>
+</head>
+<body>
+    <h1 class="nav-head nav-main other-useful-class", id="site-brand"> Red wins over all , because its selector is 
+        an id and thus is more specific than classes and tags. </h1>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascade7
+    </title>
+    <style>
+        #site-brand-2 {
+          color: red;
+          border: 1px solid red;
+        }
+  
+        .nav-head-2 {
+          color: blue !important;
+          border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="nav-head-2", id="site-brand-2"> Blue wins here over id, because of !important remark after the value of the shared property with the former 
+        id selector. Never abuse of using !important. Still, red border from id is applied because it is no in conflict with nav-head-2 class selector, 
+        and is more specific. </h1>
+</html>

@@ -1,0 +1,22 @@
+p {
+    color:cadetblue;
+}
+
+div {
+    color:blue;
+    font-size: 80px;
+    font-weight: none;
+    text-decoration: overline;
+    text-transform: lowercase;
+    border: 15px solid lightseagreen;
+
+}
+
+h1 {
+    color:red;
+    font-size: 60px;
+    font-weight: normal;
+    text-decoration: underline;
+    text-transform: capitalize;
+    border: 10px solid lightseagreen;
+}
